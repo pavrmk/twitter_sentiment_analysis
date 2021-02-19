@@ -3,7 +3,7 @@ from tweepy import OAuthHandler, Stream
 from tweepy.streaming import StreamListener
 import pymongo
 
-TRACKING_KEYWORDS = 'artifical intelligence'
+TRACKING_KEYWORDS = 'artificial intelligence'
 
 client = pymongo.MongoClient("mongodb")
 db = client.tweets
