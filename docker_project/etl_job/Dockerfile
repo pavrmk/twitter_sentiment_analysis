@@ -6,7 +6,7 @@ WORKDIR /etl
 # Set the working directory to /app
 COPY requirements.txt /etl
 
-RUN pip install -r requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
 ADD . /etl
 
 CMD ["python", "etl.py"]
