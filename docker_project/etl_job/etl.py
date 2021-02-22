@@ -1,6 +1,9 @@
 import pymongo
 import time
 from sqlalchemy import create_engine
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
+s  = SentimentIntensityAnalyzer()
 
 time.sleep(10)  # Time (in seconds) to give Mongo a few seconds to start
 
@@ -28,6 +31,8 @@ entries = collection.find()
 for e in entries:
     print(e)
     text = e['text']
-    score = 1.0  # placeholder value
+    sentiment = s.polarity_scores(e['text'])
+    score = sentiment['compound']
     query = "INSERT INTO tweets VALUES (%s, %s);"
     pg.execute(query, (text, score))
+    print(sentiment)
