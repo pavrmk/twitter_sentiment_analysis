@@ -6,15 +6,25 @@ This project was created during the [@spicedacademy](https://github.com/spicedac
 * ETL Job: Extracting the tweets from MongoDB, performing a sentiment analysis of the tweets and stroing the results in a second database (Postgres)
 * Loading the tweets and the tweets sentiment in a Postgres database
 
-<img src= "https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/structure.svg" width="1000">
+<kbd>
+  <img src="https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/structure.svg">
+</kbd>
+<br>
+<br>
 
 The pipeline should look like this in the Docker Desktop:
 
-<img src= "https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/docker_pipeline.png" width="1000">
+<kbd>
+  <img src="https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/docker_pipeline.png">
+</kbd>
+<br>
+<br>
 
 This is what the Postgres DB with the tweets and corresponding sentiment score could look like:
 
-<img src= "https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/postgres_tweets.png" width="1000">
+<kbd>
+  <img src="https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/postgres_tweets.png">
+</kbd>
 
 ## To do:
 * Finish the Slack bot and add it to the project description
