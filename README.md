@@ -1,12 +1,13 @@
 # Dockerized Data Pipeline that analyzes the sentiment of tweets
 
 This project was created during the [@spicedacademy](https://github.com/spicedacademy/) boot camp. The goal of this project is to develop a dockerized data pipeline with following steps:
-* Collecting tweets with a Python script
-* Storing tweets in a MongoDB database
-* ETL Job: Extracting the tweets from MongoDB, performing a sentiment analysis of the tweets and stroing the results in a second database (Postgres)
-* Loading the tweets and the tweets sentiment in a Postgres database
 
 <kbd>
+  <h4>① Collecting tweets with a Python script</h4>
+  <h4>② Storing tweets in a MongoDB database</h4>
+  <h4>③ ETL Job: Extracting the tweets from MongoDB, performing a sentiment analysis of the tweets and stroing the results in a Postgres database</h4>
+  <h4>④ Loading the tweets and the tweets sentiment in a Postgres database</h4>
+
   <img src="https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/structure.svg">
 </kbd>
 <br>
