@@ -8,7 +8,7 @@ This project was created during the [@spicedacademy](https://github.com/spicedac
   <h4>③ ETL Job: Extracting the tweets from MongoDB, performing a sentiment analysis of the tweets and stroing the results in a Postgres database</h4>
   <h4>④ Loading the tweets and the tweets sentiment in a Postgres database</h4>
 
-  <img src="https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/structure.svg">
+  <img src="https://github.com/pavrmk/twitter_sentiment_analysis/blob/main/images/readme_file_images/structure-gray.png">
 </kbd>
 <br>
 <br>
